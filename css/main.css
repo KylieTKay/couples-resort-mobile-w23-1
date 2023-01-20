@@ -1,0 +1,73 @@
+/* --- Basic CSS Reset --- */
+
+h1, h2, h3, h4, h5, p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+}
+
+input, textarea {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+/* 
+
+    CSS Guide
+
+    1. General Styles
+    2. Grid
+    3. Header
+    4. Main Hero Image
+    5. Why Couples Resort
+    6. About & FAQ
+    7. Contact Form
+    8. Footer
+
+*/
+
+/* 1. ---General Styles--- */
+
+.hidden {
+    display: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: 626262;
+    font-family: 'Sanchez', 'Times New Roman', serif;
+}
+
+.container {
+    width: 320px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: solid 1px #333;
+}
+
+/* 2. --- Grid --- */
+
+.grid {
+    grid-template-columns: repeat(12, 70px);
+    grid-column-gap: 30px;
+}
+
+/* 3. --- Header --- */
+
+#main-nav label img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: all .5s ease;
+}
+
+#main-nav input {
+    display: none;
+}
